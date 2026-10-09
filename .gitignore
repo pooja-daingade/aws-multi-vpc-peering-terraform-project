@@ -1,0 +1,13 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Sensitive variables
+**/terraform.tfvars
+
+# IDE files
+.vscode/
+multi-vpc-peering/.terraform.lock.hcl
